@@ -1,0 +1,367 @@
+body,
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lilita One", cursive;
+  font-family: "Zen Maru Gothic", sans-serif;
+  scroll-behavior:smooth;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  padding: 5px 14px;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  background-color: rgba(43, 40, 40, 0.664);
+  color: rgb(255, 255, 255);
+  padding: 5px 14px;
+  border-radius: 10px;
+  transition: 0.4s ease-in-out;
+}
+
+.left {
+  font-size: 1.2rem;
+}
+.perosonal-info-secs-1 {
+  margin-top: 70px;
+}
+
+.personal-info-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  flex-wrap: wrap;
+}
+
+.personal-info-cards {
+  height: 500px;
+  width: 500px;
+  /* background-color: whitesmoke; */
+  text-align: justify;
+  align-items: center;
+  padding: 20px;
+}
+
+.perosonal-info-header-1 {
+  font-size: 35px;
+}
+
+.perosonal-info-header-2 {
+  margin-top: 10px;
+}
+
+.links-btn-continer {
+  margin-top: 10px;
+  display: flex;
+}
+
+.links-btn {
+  padding: 8px 10px 8px 10px;
+  background-color: black;
+  color: white;
+  border: 1px solid rgb(59, 59, 227);
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.links-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.sau-header {
+  color: purple;
+}
+
+.personal-info-img {
+  filter: drop-shadow(2px 2px 3px rgb(0, 0, 0));
+}
+.element {
+  font-size: 20px;
+}
+.type-js {
+  font-size: 50px;
+  color: purple;
+}
+
+/* projects-cards  */
+
+.projects-card-header {
+  text-align: center;
+  font-size: 50px;
+}
+.projects-card-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  object-fit: contain;
+}
+
+.projects-cards {
+  width: 380px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #2d44c412;
+  box-shadow: 0px 0px 35px -10px gray;
+}
+.project-img-container {
+  background-color: #1d2e3c36;
+  padding: 20px 0px;
+  border-radius: 18px;
+}
+.projects-card-img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+.projects-card-heading {
+  text-align: justify;
+}
+.projects-card-desc {
+  margin-top: 2px;
+  font-weight: 800;
+  text-align: justify;
+  color: gray;
+}
+.heading-container {
+  padding: 10px;
+}
+
+.project-card-btn-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.project-card-btn {
+  padding: 8px 18px;
+  font-size: 19px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  background-color: #2196f37a;
+}
+.about-header {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 44px;
+}
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 50px;
+}
+.about-container p {
+  font-size: 27px;
+  color: #170404;
+  background-color: #80808078;
+  padding: 45px;
+  text-align: center;
+  border-radius: 10px;
+  line-height: 1.8;
+}
+
+.skill-card-main-container {
+  margin-bottom: 40px;
+}
+
+.skill-card-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  object-fit: contain;
+  background-color: #2196f34a;
+  box-shadow: 0 0 5px 2px #00000059;
+}
+.skill-card-img {
+  display: block;
+  height: 110px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.wp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 19px;
+  height: 38px;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+
+  .left {
+    font-size: 1.2rem;
+  }
+  .perosonal-info-secs-1 {
+    margin-top: 10px;
+  }
+
+  .personal-info-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    flex-wrap: wrap-reverse;
+  }
+
+  .personal-info-cards {
+    height: 310px;
+    width: 310px;
+    /* background-color: whitesmoke; */
+    text-align: justify;
+    align-items: center;
+    padding: 0px;
+  }
+  .perosonal-info-header-1 {
+    font-size: 30px;
+  }
+
+  .perosonal-info-header-2 {
+    margin-top: 1px;
+    font-size: 20px;
+  }
+
+  .links-btn-continer {
+    margin-top: 10px;
+    display: flex;
+  }
+
+  .links-btn {
+    padding: 4px 5px 4px 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(59, 59, 227);
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .my-social-hide {
+    display: none;
+  }
+
+  .links-btn a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    font-size: 30px;
+  }
+
+  .sau-header {
+    color: purple;
+  }
+
+  .personal-info-img {
+    filter: drop-shadow(2px 2px 3px rgb(0, 0, 0));
+  }
+  .element {
+    font-size: 20px;
+  }
+  .type-js {
+    font-size: 30px;
+    color: purple;
+  }
+
+  /* project-card */
+  .projects-cards {
+    width: 245px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #2d44c412;
+    box-shadow: 0px 0px 35px -10px gray;
+    margin-top: 22px;
+  }
+  .projects-card-heading {
+    text-align: justify;
+    font-size: 19px;
+  }
+
+  .projects-card-desc {
+    margin-top: 0px;
+    font-weight: 800;
+    text-align: justify;
+    color: gray;
+    font-size: 13px;
+  }
+  .project-card-btn {
+    padding: 5px 14px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    background-color: #2196f37a;
+  }
+  .projects-card-header {
+    text-align: center;
+    font-size: 46px;
+  }
+  .about-header {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 35px;
+  }
+  .about-container p {
+    font-size: 15px;
+    color: #170404;
+    background-color: #80808078;
+    padding: 18px;
+    text-align: center;
+    border-radius: 10px;
+    /* line-height: 1.8; */
+  }
+
+  .skill-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .skill-card {
+    padding: 21px 79px;
+    border: 1px solid black;
+    border-radius: 10px;
+    object-fit: contain;
+    background-color: #2196f34a;
+    box-shadow: 0 0 5px 2px #00000059;
+    margin: 14px;
+  }
+  .wp-icon {
+    position: fixed;
+    bottom: 19px;
+    right: 15px;
+  }
+}
