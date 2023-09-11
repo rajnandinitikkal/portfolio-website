@@ -47,14 +47,6 @@
         color: rgb(205, 51, 247);
     }
 
-    @media screen and (max-width:1000px){
-        .user-details {
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-        }
-    }
-
     .section-info{
         text-align: center;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -75,6 +67,22 @@
         margin-right: 20px;
         border-radius: 17px;
         cursor: pointer;
+    }
+
+    .btn1{
+        color: white;
+        background-color: black;
+        padding: 8px;
+        font-size: 18px;
+        margin-top: 18px;
+        margin-left: -10px;
+        margin-right: 20px;
+        border-radius: 17px;
+        cursor: pointer;
+    }
+    .btn1 a{
+        text-decoration: none;
+        color: white;
     }
     .btn a{
         text-decoration: none;
@@ -126,9 +134,9 @@
         width: 1400px;
         border:none;
         border-radius: 20px;
-        background-color: rgb(225, 166, 241);
+        background-color: rgb(233, 208, 240);
         margin-bottom: 30px;
-        font-size: 25px;
+        font-size: 20px;
         padding: 20px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: rgb(56, 55, 55);
@@ -136,9 +144,93 @@
     .projecct-heading{
         text-align: center;
         padding: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
     .hobbies-des{
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         margin: 10px;
+    }
+    .project-des{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 10px;
+    }
+    a{
+        text-decoration: none;
+    }
+
+
+    @media (max-width:350px){
+        .user-details {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        #user-img{
+            display: block;
+            height: 250px;
+            margin-top: 30px;
+            margin-left: 10px;
+        }
+        .product-card{
+            display: flex;
+            flex-direction: column;
+            margin-left: 45px;
+        }
+        .learning-card{
+            display: flex;
+            flex-direction: column;
+            margin-left: 45px;
+        }
+        .hobbies-card{
+            display: flex;
+            flex-direction: column;
+            margin-left: 45px;
+        }
+        .about-description{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        text-align: center;
+        width: 200px;
+        border:none;
+        border-radius: 20px;
+        background-color: rgb(225, 166, 241);
+        margin-bottom: 30px;
+        font-size: 15px;
+        padding: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(56, 55, 55);
+        }
+        .heading1{
+            font-size: 23px;
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+        .btn{
+            color: white;
+            background-color: black;
+            padding: 8px;
+            font-size: 10px;
+            margin-top: 18px;
+            margin-left: -40px;
+            border-radius: 17px;
+            cursor: pointer;
+        }
+        .btn1{
+            color: white;
+            background-color: black;
+            padding: 8px;
+            font-size: 10px;
+            margin-top: 18px;
+            margin-left: 5px;
+            border-radius: 17px;
+            cursor: pointer;
+        }
+    }
+    @media (max-width: 350px){
+        .Nav-container{
+            display: none;
+        }
     }
 
